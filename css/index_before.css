@@ -1,0 +1,129 @@
+h2, h3 {
+  font-family: 'Italiana', serif;
+  color: #333;
+}
+
+#container #pics .pic p {
+  font-size: 0.5rem;
+  border: thin solid #333;
+  padding: 2px 4px;
+  display: inline;
+  color: #333;
+}
+#container #pics .pic h3 {
+  margin: 10px 0 0;
+  letter-spacing: 0.06rem;
+}
+
+
+/* MAINBANNER IMG */
+main #container {
+  /* text-align: center; */
+  background: url(../img/works/210621_thumb.jpg) no-repeat;
+  width: 100vw;
+  height: 50rem;
+  background-size: cover;
+}
+
+#originPic {
+  background: rgba(255,255,255,.5);
+  width: 110vw;
+  height: 430px;
+  background-size: cover;
+  z-index: -999;
+  display: none;
+}
+
+#pics {
+  position: relative;
+  top: 50%;
+  width: 98%;
+  margin: 0 auto;
+  
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.pic {
+  /* margin: 0 7px; */
+  width: 95px;
+  text-align: left;
+}
+.pic img {
+  width: inherit;
+  height: auto;
+  display: none;
+}
+
+
+
+/* ARTICLE - The Lastest and Greatest */
+article {
+    margin: 6vw 9vw 0;
+}
+article h2 {
+    font-size: 3rem;
+
+}
+article .hashtag {
+    font-size: 0.8rem;
+    padding: 1vw 0 3.2vw;
+}
+article .hashtag li {
+    float: left;
+    padding: 0.2rem 0.5rem;
+    margin: 0 0.3rem;
+    border: thin solid #333;
+    border-radius: 5px;
+}
+
+
+hr {
+    clear: both;
+    margin: 0 -9rem 0;
+}
+hr#footerline {
+    width: 100%;
+    margin: 0;
+}
+
+
+article .list {
+    display: flex;
+    margin: 5rem 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+}
+article .list li {
+    /* display: inline-block; */
+    width: 16vw;
+    margin: 0 0 5rem;
+}
+article .list p {
+    font-size: 0.6rem;
+    padding: 0.1rem 0.3rem;
+    border: thin solid #333;
+    display: inline-block;
+}
+article .list img {
+    width: 100%;
+    height: auto;
+    margin: 1.3rem 0 0;
+}
+
+
+#works li h3 {
+  margin: 10px 0 0;
+  letter-spacing: 0.06rem;
+}
+
+
+
