@@ -15,7 +15,7 @@ h3, h2{
     overflow:hidden;
     position: relative;
     z-index: 99;
-    height: 74rem;
+    height: 90vh !important;
     padding: 0 1rem;
 
     display: flex;
